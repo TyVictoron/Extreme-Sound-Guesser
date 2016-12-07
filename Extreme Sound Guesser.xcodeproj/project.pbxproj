@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		109547831DF85E51004EF0F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109547821DF85E51004EF0F3 /* AppDelegate.swift */; };
+		109547851DF85E51004EF0F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109547841DF85E51004EF0F3 /* ViewController.swift */; };
+		109547881DF85E51004EF0F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109547861DF85E51004EF0F3 /* Main.storyboard */; };
+		1095478B1DF85E51004EF0F3 /* Extreme_Sound_Guesser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 109547891DF85E51004EF0F3 /* Extreme_Sound_Guesser.xcdatamodeld */; };
+		1095478D1DF85E51004EF0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1095478C1DF85E51004EF0F3 /* Assets.xcassets */; };
+		109547901DF85E51004EF0F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1095478E1DF85E51004EF0F3 /* LaunchScreen.storyboard */; };
+		1095479B1DF85E52004EF0F3 /* Extreme_Sound_GuesserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1095479A1DF85E52004EF0F3 /* Extreme_Sound_GuesserTests.swift */; };
+		109547A61DF85E52004EF0F3 /* Extreme_Sound_GuesserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109547A51DF85E52004EF0F3 /* Extreme_Sound_GuesserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		109547971DF85E52004EF0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 109547771DF85E50004EF0F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1095477E1DF85E50004EF0F3;
+			remoteInfo = "Extreme Sound Guesser";
+		};
+		109547A21DF85E52004EF0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 109547771DF85E50004EF0F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1095477E1DF85E50004EF0F3;
+			remoteInfo = "Extreme Sound Guesser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1095477F1DF85E50004EF0F3 /* Extreme Sound Guesser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Extreme Sound Guesser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		109547821DF85E51004EF0F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		109547841DF85E51004EF0F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		109547871DF85E51004EF0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1095478A1DF85E51004EF0F3 /* Extreme_Sound_Guesser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Extreme_Sound_Guesser.xcdatamodel; sourceTree = "<group>"; };
+		1095478C1DF85E51004EF0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1095478F1DF85E51004EF0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		109547911DF85E51004EF0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109547961DF85E52004EF0F3 /* Extreme Sound GuesserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Extreme Sound GuesserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1095479A1DF85E52004EF0F3 /* Extreme_Sound_GuesserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extreme_Sound_GuesserTests.swift; sourceTree = "<group>"; };
+		1095479C1DF85E52004EF0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109547A11DF85E52004EF0F3 /* Extreme Sound GuesserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Extreme Sound GuesserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		109547A51DF85E52004EF0F3 /* Extreme_Sound_GuesserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extreme_Sound_GuesserUITests.swift; sourceTree = "<group>"; };
+		109547A71DF85E52004EF0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1095477C1DF85E50004EF0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109547931DF85E52004EF0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1095479E1DF85E52004EF0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		109547761DF85E50004EF0F3 = {
+			isa = PBXGroup;
+			children = (
+				109547811DF85E51004EF0F3 /* Extreme Sound Guesser */,
+				109547991DF85E52004EF0F3 /* Extreme Sound GuesserTests */,
+				109547A41DF85E52004EF0F3 /* Extreme Sound GuesserUITests */,
+				109547801DF85E50004EF0F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		109547801DF85E50004EF0F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1095477F1DF85E50004EF0F3 /* Extreme Sound Guesser.app */,
+				109547961DF85E52004EF0F3 /* Extreme Sound GuesserTests.xctest */,
+				109547A11DF85E52004EF0F3 /* Extreme Sound GuesserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		109547811DF85E51004EF0F3 /* Extreme Sound Guesser */ = {
+			isa = PBXGroup;
+			children = (
+				109547821DF85E51004EF0F3 /* AppDelegate.swift */,
+				109547841DF85E51004EF0F3 /* ViewController.swift */,
+				109547861DF85E51004EF0F3 /* Main.storyboard */,
+				1095478C1DF85E51004EF0F3 /* Assets.xcassets */,
+				1095478E1DF85E51004EF0F3 /* LaunchScreen.storyboard */,
+				109547911DF85E51004EF0F3 /* Info.plist */,
+				109547891DF85E51004EF0F3 /* Extreme_Sound_Guesser.xcdatamodeld */,
+			);
+			path = "Extreme Sound Guesser";
+			sourceTree = "<group>";
+		};
+		109547991DF85E52004EF0F3 /* Extreme Sound GuesserTests */ = {
+			isa = PBXGroup;
+			children = (
+				1095479A1DF85E52004EF0F3 /* Extreme_Sound_GuesserTests.swift */,
+				1095479C1DF85E52004EF0F3 /* Info.plist */,
+			);
+			path = "Extreme Sound GuesserTests";
+			sourceTree = "<group>";
+		};
+		109547A41DF85E52004EF0F3 /* Extreme Sound GuesserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				109547A51DF85E52004EF0F3 /* Extreme_Sound_GuesserUITests.swift */,
+				109547A71DF85E52004EF0F3 /* Info.plist */,
+			);
+			path = "Extreme Sound GuesserUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1095477E1DF85E50004EF0F3 /* Extreme Sound Guesser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109547AA1DF85E52004EF0F3 /* Build configuration list for PBXNativeTarget "Extreme Sound Guesser" */;
+			buildPhases = (
+				1095477B1DF85E50004EF0F3 /* Sources */,
+				1095477C1DF85E50004EF0F3 /* Frameworks */,
+				1095477D1DF85E50004EF0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Extreme Sound Guesser";
+			productName = "Extreme Sound Guesser";
+			productReference = 1095477F1DF85E50004EF0F3 /* Extreme Sound Guesser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		109547951DF85E52004EF0F3 /* Extreme Sound GuesserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109547AD1DF85E52004EF0F3 /* Build configuration list for PBXNativeTarget "Extreme Sound GuesserTests" */;
+			buildPhases = (
+				109547921DF85E52004EF0F3 /* Sources */,
+				109547931DF85E52004EF0F3 /* Frameworks */,
+				109547941DF85E52004EF0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				109547981DF85E52004EF0F3 /* PBXTargetDependency */,
+			);
+			name = "Extreme Sound GuesserTests";
+			productName = "Extreme Sound GuesserTests";
+			productReference = 109547961DF85E52004EF0F3 /* Extreme Sound GuesserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		109547A01DF85E52004EF0F3 /* Extreme Sound GuesserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109547B01DF85E52004EF0F3 /* Build configuration list for PBXNativeTarget "Extreme Sound GuesserUITests" */;
+			buildPhases = (
+				1095479D1DF85E52004EF0F3 /* Sources */,
+				1095479E1DF85E52004EF0F3 /* Frameworks */,
+				1095479F1DF85E52004EF0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				109547A31DF85E52004EF0F3 /* PBXTargetDependency */,
+			);
+			name = "Extreme Sound GuesserUITests";
+			productName = "Extreme Sound GuesserUITests";
+			productReference = 109547A11DF85E52004EF0F3 /* Extreme Sound GuesserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		109547771DF85E50004EF0F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Xision;
+				TargetAttributes = {
+					1095477E1DF85E50004EF0F3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SS74D43GDA;
+						ProvisioningStyle = Automatic;
+					};
+					109547951DF85E52004EF0F3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SS74D43GDA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1095477E1DF85E50004EF0F3;
+					};
+					109547A01DF85E52004EF0F3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SS74D43GDA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1095477E1DF85E50004EF0F3;
+					};
+				};
+			};
+			buildConfigurationList = 1095477A1DF85E50004EF0F3 /* Build configuration list for PBXProject "Extreme Sound Guesser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 109547761DF85E50004EF0F3;
+			productRefGroup = 109547801DF85E50004EF0F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1095477E1DF85E50004EF0F3 /* Extreme Sound Guesser */,
+				109547951DF85E52004EF0F3 /* Extreme Sound GuesserTests */,
+				109547A01DF85E52004EF0F3 /* Extreme Sound GuesserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1095477D1DF85E50004EF0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109547901DF85E51004EF0F3 /* LaunchScreen.storyboard in Resources */,
+				1095478D1DF85E51004EF0F3 /* Assets.xcassets in Resources */,
+				109547881DF85E51004EF0F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109547941DF85E52004EF0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1095479F1DF85E52004EF0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1095477B1DF85E50004EF0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109547851DF85E51004EF0F3 /* ViewController.swift in Sources */,
+				109547831DF85E51004EF0F3 /* AppDelegate.swift in Sources */,
+				1095478B1DF85E51004EF0F3 /* Extreme_Sound_Guesser.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109547921DF85E52004EF0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1095479B1DF85E52004EF0F3 /* Extreme_Sound_GuesserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1095479D1DF85E52004EF0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109547A61DF85E52004EF0F3 /* Extreme_Sound_GuesserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		109547981DF85E52004EF0F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1095477E1DF85E50004EF0F3 /* Extreme Sound Guesser */;
+			targetProxy = 109547971DF85E52004EF0F3 /* PBXContainerItemProxy */;
+		};
+		109547A31DF85E52004EF0F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1095477E1DF85E50004EF0F3 /* Extreme Sound Guesser */;
+			targetProxy = 109547A21DF85E52004EF0F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		109547861DF85E51004EF0F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				109547871DF85E51004EF0F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1095478E1DF85E51004EF0F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1095478F1DF85E51004EF0F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		109547A81DF85E52004EF0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		109547A91DF85E52004EF0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		109547AB1DF85E52004EF0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SS74D43GDA;
+				INFOPLIST_FILE = "Extreme Sound Guesser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XisionStudios.Extreme-Sound-Guesser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		109547AC1DF85E52004EF0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SS74D43GDA;
+				INFOPLIST_FILE = "Extreme Sound Guesser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XisionStudios.Extreme-Sound-Guesser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		109547AE1DF85E52004EF0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SS74D43GDA;
+				INFOPLIST_FILE = "Extreme Sound GuesserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XisionStudios.Extreme-Sound-GuesserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Extreme Sound Guesser.app/Extreme Sound Guesser";
+			};
+			name = Debug;
+		};
+		109547AF1DF85E52004EF0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SS74D43GDA;
+				INFOPLIST_FILE = "Extreme Sound GuesserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XisionStudios.Extreme-Sound-GuesserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Extreme Sound Guesser.app/Extreme Sound Guesser";
+			};
+			name = Release;
+		};
+		109547B11DF85E52004EF0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SS74D43GDA;
+				INFOPLIST_FILE = "Extreme Sound GuesserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XisionStudios.Extreme-Sound-GuesserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Extreme Sound Guesser";
+			};
+			name = Debug;
+		};
+		109547B21DF85E52004EF0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SS74D43GDA;
+				INFOPLIST_FILE = "Extreme Sound GuesserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XisionStudios.Extreme-Sound-GuesserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Extreme Sound Guesser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1095477A1DF85E50004EF0F3 /* Build configuration list for PBXProject "Extreme Sound Guesser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109547A81DF85E52004EF0F3 /* Debug */,
+				109547A91DF85E52004EF0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		109547AA1DF85E52004EF0F3 /* Build configuration list for PBXNativeTarget "Extreme Sound Guesser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109547AB1DF85E52004EF0F3 /* Debug */,
+				109547AC1DF85E52004EF0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		109547AD1DF85E52004EF0F3 /* Build configuration list for PBXNativeTarget "Extreme Sound GuesserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109547AE1DF85E52004EF0F3 /* Debug */,
+				109547AF1DF85E52004EF0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		109547B01DF85E52004EF0F3 /* Build configuration list for PBXNativeTarget "Extreme Sound GuesserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109547B11DF85E52004EF0F3 /* Debug */,
+				109547B21DF85E52004EF0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		109547891DF85E51004EF0F3 /* Extreme_Sound_Guesser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1095478A1DF85E51004EF0F3 /* Extreme_Sound_Guesser.xcdatamodel */,
+			);
+			currentVersion = 1095478A1DF85E51004EF0F3 /* Extreme_Sound_Guesser.xcdatamodel */;
+			path = Extreme_Sound_Guesser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 109547771DF85E50004EF0F3 /* Project object */;
+}
