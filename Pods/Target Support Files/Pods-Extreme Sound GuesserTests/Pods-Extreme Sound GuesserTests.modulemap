@@ -1,0 +1,6 @@
+framework module Pods_Extreme_Sound_GuesserTests {
+  umbrella header "Pods-Extreme Sound GuesserTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -15,6 +15,13 @@
 		109547901DF85E51004EF0F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1095478E1DF85E51004EF0F3 /* LaunchScreen.storyboard */; };
 		1095479B1DF85E52004EF0F3 /* Extreme_Sound_GuesserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1095479A1DF85E52004EF0F3 /* Extreme_Sound_GuesserTests.swift */; };
 		109547A61DF85E52004EF0F3 /* Extreme_Sound_GuesserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109547A51DF85E52004EF0F3 /* Extreme_Sound_GuesserUITests.swift */; };
+		109547B41DFB09FF004EF0F3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109547B31DFB09FF004EF0F3 /* GameViewController.swift */; };
+		109547B61DFB0A0F004EF0F3 /* EndGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109547B51DFB0A0F004EF0F3 /* EndGameViewController.swift */; };
+		109547B81DFB0A9D004EF0F3 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109547B71DFB0A9D004EF0F3 /* Cell.swift */; };
+		109547BA1DFB0B17004EF0F3 /* CollectionViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109547B91DFB0B17004EF0F3 /* CollectionViewCellController.swift */; };
+		1264CCAF5A4E43BCB63D8116 /* Pods_Extreme_Sound_GuesserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F1AAFDEA31BC76E3C19162 /* Pods_Extreme_Sound_GuesserUITests.framework */; };
+		6DE50AD218D2944E3008CD96 /* Pods_Extreme_Sound_GuesserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D482D2859052429FD5F4F2E /* Pods_Extreme_Sound_GuesserTests.framework */; };
+		D0585BF937C10D7826F91065 /* Pods_Extreme_Sound_Guesser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD39F5F77301F8B414C2DB3 /* Pods_Extreme_Sound_Guesser.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,19 @@
 		109547A11DF85E52004EF0F3 /* Extreme Sound GuesserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Extreme Sound GuesserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		109547A51DF85E52004EF0F3 /* Extreme_Sound_GuesserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extreme_Sound_GuesserUITests.swift; sourceTree = "<group>"; };
 		109547A71DF85E52004EF0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109547B31DFB09FF004EF0F3 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		109547B51DFB0A0F004EF0F3 /* EndGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndGameViewController.swift; sourceTree = "<group>"; };
+		109547B71DFB0A9D004EF0F3 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		109547B91DFB0B17004EF0F3 /* CollectionViewCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellController.swift; sourceTree = "<group>"; };
+		1366AC1D2766CEFE3A7A01A6 /* Pods-Extreme Sound GuesserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extreme Sound GuesserUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Extreme Sound GuesserUITests/Pods-Extreme Sound GuesserUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4D482D2859052429FD5F4F2E /* Pods_Extreme_Sound_GuesserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Extreme_Sound_GuesserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD39F5F77301F8B414C2DB3 /* Pods_Extreme_Sound_Guesser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Extreme_Sound_Guesser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E8EF6257EC5BEF40315922 /* Pods-Extreme Sound GuesserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extreme Sound GuesserTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Extreme Sound GuesserTests/Pods-Extreme Sound GuesserTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F058245ED5D1D0A1F4A52CB /* Pods-Extreme Sound GuesserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extreme Sound GuesserTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Extreme Sound GuesserTests/Pods-Extreme Sound GuesserTests.release.xcconfig"; sourceTree = "<group>"; };
+		A84DBB88E0EE95F2FEC7C102 /* Pods-Extreme Sound Guesser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extreme Sound Guesser.release.xcconfig"; path = "Pods/Target Support Files/Pods-Extreme Sound Guesser/Pods-Extreme Sound Guesser.release.xcconfig"; sourceTree = "<group>"; };
+		C5123352870629D840966D00 /* Pods-Extreme Sound GuesserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extreme Sound GuesserUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Extreme Sound GuesserUITests/Pods-Extreme Sound GuesserUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1F1AAFDEA31BC76E3C19162 /* Pods_Extreme_Sound_GuesserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Extreme_Sound_GuesserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8778146519FBA4DADF9A4D6 /* Pods-Extreme Sound Guesser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extreme Sound Guesser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Extreme Sound Guesser/Pods-Extreme Sound Guesser.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0585BF937C10D7826F91065 /* Pods_Extreme_Sound_Guesser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE50AD218D2944E3008CD96 /* Pods_Extreme_Sound_GuesserTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1264CCAF5A4E43BCB63D8116 /* Pods_Extreme_Sound_GuesserUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +106,8 @@
 				109547991DF85E52004EF0F3 /* Extreme Sound GuesserTests */,
 				109547A41DF85E52004EF0F3 /* Extreme Sound GuesserUITests */,
 				109547801DF85E50004EF0F3 /* Products */,
+				8572FCEDE0FE4EADAEFA6E63 /* Pods */,
+				3ECF314849A2876CCFE0AE35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +126,10 @@
 			children = (
 				109547821DF85E51004EF0F3 /* AppDelegate.swift */,
 				109547841DF85E51004EF0F3 /* ViewController.swift */,
+				109547B31DFB09FF004EF0F3 /* GameViewController.swift */,
+				109547B51DFB0A0F004EF0F3 /* EndGameViewController.swift */,
+				109547B71DFB0A9D004EF0F3 /* Cell.swift */,
+				109547B91DFB0B17004EF0F3 /* CollectionViewCellController.swift */,
 				109547861DF85E51004EF0F3 /* Main.storyboard */,
 				1095478C1DF85E51004EF0F3 /* Assets.xcassets */,
 				1095478E1DF85E51004EF0F3 /* LaunchScreen.storyboard */,
@@ -128,6 +157,29 @@
 			path = "Extreme Sound GuesserUITests";
 			sourceTree = "<group>";
 		};
+		3ECF314849A2876CCFE0AE35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DD39F5F77301F8B414C2DB3 /* Pods_Extreme_Sound_Guesser.framework */,
+				4D482D2859052429FD5F4F2E /* Pods_Extreme_Sound_GuesserTests.framework */,
+				D1F1AAFDEA31BC76E3C19162 /* Pods_Extreme_Sound_GuesserUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8572FCEDE0FE4EADAEFA6E63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8778146519FBA4DADF9A4D6 /* Pods-Extreme Sound Guesser.debug.xcconfig */,
+				A84DBB88E0EE95F2FEC7C102 /* Pods-Extreme Sound Guesser.release.xcconfig */,
+				75E8EF6257EC5BEF40315922 /* Pods-Extreme Sound GuesserTests.debug.xcconfig */,
+				9F058245ED5D1D0A1F4A52CB /* Pods-Extreme Sound GuesserTests.release.xcconfig */,
+				C5123352870629D840966D00 /* Pods-Extreme Sound GuesserUITests.debug.xcconfig */,
+				1366AC1D2766CEFE3A7A01A6 /* Pods-Extreme Sound GuesserUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 109547AA1DF85E52004EF0F3 /* Build configuration list for PBXNativeTarget "Extreme Sound Guesser" */;
 			buildPhases = (
+				AF287AFA133BA9686B0FD7EF /* 📦 Check Pods Manifest.lock */,
 				1095477B1DF85E50004EF0F3 /* Sources */,
 				1095477C1DF85E50004EF0F3 /* Frameworks */,
 				1095477D1DF85E50004EF0F3 /* Resources */,
+				6F0A18E404805B40455A3913 /* 📦 Embed Pods Frameworks */,
+				C3ABF12011603460DC938886 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 109547AD1DF85E52004EF0F3 /* Build configuration list for PBXNativeTarget "Extreme Sound GuesserTests" */;
 			buildPhases = (
+				E274175545E41CD6E33334E4 /* 📦 Check Pods Manifest.lock */,
 				109547921DF85E52004EF0F3 /* Sources */,
 				109547931DF85E52004EF0F3 /* Frameworks */,
 				109547941DF85E52004EF0F3 /* Resources */,
+				5979C66D06A4A13D59FBFD7B /* 📦 Embed Pods Frameworks */,
+				255C6BF6FFB61A983C72053A /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 109547B01DF85E52004EF0F3 /* Build configuration list for PBXNativeTarget "Extreme Sound GuesserUITests" */;
 			buildPhases = (
+				4B498C1CA20C2D9C47AA5C61 /* 📦 Check Pods Manifest.lock */,
 				1095479D1DF85E52004EF0F3 /* Sources */,
 				1095479E1DF85E52004EF0F3 /* Frameworks */,
 				1095479F1DF85E52004EF0F3 /* Resources */,
+				E2BABE5EF02449C6CEEA0CBC /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +320,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		255C6BF6FFB61A983C72053A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Extreme Sound GuesserTests/Pods-Extreme Sound GuesserTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B498C1CA20C2D9C47AA5C61 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5979C66D06A4A13D59FBFD7B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Extreme Sound GuesserTests/Pods-Extreme Sound GuesserTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F0A18E404805B40455A3913 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Extreme Sound Guesser/Pods-Extreme Sound Guesser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF287AFA133BA9686B0FD7EF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3ABF12011603460DC938886 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Extreme Sound Guesser/Pods-Extreme Sound Guesser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E274175545E41CD6E33334E4 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2BABE5EF02449C6CEEA0CBC /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Extreme Sound GuesserUITests/Pods-Extreme Sound GuesserUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1095477B1DF85E50004EF0F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				109547B41DFB09FF004EF0F3 /* GameViewController.swift in Sources */,
 				109547851DF85E51004EF0F3 /* ViewController.swift in Sources */,
+				109547B61DFB0A0F004EF0F3 /* EndGameViewController.swift in Sources */,
 				109547831DF85E51004EF0F3 /* AppDelegate.swift in Sources */,
+				109547BA1DFB0B17004EF0F3 /* CollectionViewCellController.swift in Sources */,
 				1095478B1DF85E51004EF0F3 /* Extreme_Sound_Guesser.xcdatamodeld in Sources */,
+				109547B81DFB0A9D004EF0F3 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +604,7 @@
 		};
 		109547AB1DF85E52004EF0F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8778146519FBA4DADF9A4D6 /* Pods-Extreme Sound Guesser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SS74D43GDA;
@@ -430,6 +618,7 @@
 		};
 		109547AC1DF85E52004EF0F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A84DBB88E0EE95F2FEC7C102 /* Pods-Extreme Sound Guesser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SS74D43GDA;
@@ -443,6 +632,7 @@
 		};
 		109547AE1DF85E52004EF0F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75E8EF6257EC5BEF40315922 /* Pods-Extreme Sound GuesserTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +648,7 @@
 		};
 		109547AF1DF85E52004EF0F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F058245ED5D1D0A1F4A52CB /* Pods-Extreme Sound GuesserTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +664,7 @@
 		};
 		109547B11DF85E52004EF0F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5123352870629D840966D00 /* Pods-Extreme Sound GuesserUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = SS74D43GDA;
@@ -487,6 +679,7 @@
 		};
 		109547B21DF85E52004EF0F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1366AC1D2766CEFE3A7A01A6 /* Pods-Extreme Sound GuesserUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = SS74D43GDA;
@@ -518,6 +711,7 @@
 				109547AC1DF85E52004EF0F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		109547AD1DF85E52004EF0F3 /* Build configuration list for PBXNativeTarget "Extreme Sound GuesserTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +720,7 @@
 				109547AF1DF85E52004EF0F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		109547B01DF85E52004EF0F3 /* Build configuration list for PBXNativeTarget "Extreme Sound GuesserUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +729,7 @@
 				109547B21DF85E52004EF0F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
