@@ -53,6 +53,9 @@
                                     <constraint firstAttribute="height" constant="65" id="li9-DT-OMl"/>
                                 </constraints>
                                 <state key="normal" title="eye"/>
+                                <connections>
+                                    <action selector="eyeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="omp-8c-t1Y"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.91813760995864868" green="0.27245092391967773" blue="0.428619384765625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -169,6 +172,7 @@
                         <outlet property="collectionView" destination="EQh-KS-gbd" id="N3j-re-GtM"/>
                         <outlet property="counterLabel" destination="gTY-KY-a1Y" id="qLe-5S-hl6"/>
                         <outlet property="pointsLabel" destination="mUB-f7-aHQ" id="EE3-H0-oT2"/>
+                        <outlet property="roundLabel" destination="8b9-Oh-w53" id="UQn-ZD-9XF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RfD-EO-SFb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -178,7 +182,7 @@
         <!--End Game View Controller-->
         <scene sceneID="b95-ZY-MCa">
             <objects>
-                <viewController id="ZGe-gO-AaC" customClass="EndGameViewController" customModule="Extreme_Sound_Guesser" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EndVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZGe-gO-AaC" customClass="EndGameViewController" customModule="Extreme_Sound_Guesser" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3ub-x3-4aQ"/>
                         <viewControllerLayoutGuide type="bottom" id="rRq-Gs-4mx"/>
@@ -230,6 +234,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="2Zp-LD-0ZE"/>
+        <segue reference="VZQ-TG-ohU"/>
     </inferredMetricsTieBreakers>
 </document>
