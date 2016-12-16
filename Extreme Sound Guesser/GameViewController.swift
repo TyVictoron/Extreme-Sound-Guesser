@@ -16,9 +16,11 @@ class GameViewController: UIViewController, UICollectionViewDataSource, UICollec
     @IBOutlet weak var pointsLabel: UILabel!
     @IBOutlet weak var roundLabel: UILabel!
     var sound = AVAudioPlayer()
+    var points = 0
     var count = 10
     var round = 1
     var timer = Timer()
+    var correctCell = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +28,8 @@ class GameViewController: UIViewController, UICollectionViewDataSource, UICollec
         sound.play()
         
          timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.update), userInfo: nil, repeats: true)
+        
+        pointsLabel.text = "Points: \(points)"
     }
     
     func update() {
@@ -38,35 +42,36 @@ class GameViewController: UIViewController, UICollectionViewDataSource, UICollec
             roundLabel.text = "\(round)/10"
         }
         
-        if round == 2 && count == 11 {
+        if round == 2 && count == 10 {
             changeSound(name: "dogBark", type: "wav")
         }
-        if round == 3 && count == 11 {
+        if round == 3 && count == 10 {
+            // nextsound
+            changeSound(name: "manSpeaks", type: "wav")
+        }
+        if round == 4 && count == 10 {
             // nextsound
         }
-        if round == 4 && count == 11 {
+        if round == 5 && count == 10 {
             // nextsound
         }
-        if round == 5 && count == 11 {
+        if round == 6 && count == 10 {
             // nextsound
         }
-        if round == 6 && count == 11 {
+        if round == 7 && count == 10 {
             // nextsound
         }
-        if round == 7 && count == 11 {
+        if round == 8 && count == 10 {
             // nextsound
         }
-        if round == 8 && count == 11 {
+        if round == 9 && count == 10 {
             // nextsound
         }
-        if round == 9 && count == 11 {
-            // nextsound
-        }
-        if round == 10 && count == 11 {
+        if round == 10 && count == 10 {
             // nextsound
         }
         
-        if round == 11 {
+        if round >= 11 {
             timer.invalidate()
             //segue to next view
             if let resultController = self.storyboard?.instantiateViewController(withIdentifier: "EndVC") as? EndGameViewController {
@@ -86,9 +91,23 @@ class GameViewController: UIViewController, UICollectionViewDataSource, UICollec
         return 4
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if (indexPath.row == correctCell) {
+            points += count * 10
+            round += 1
+            count = 11
+            roundLabel.text = "\(round)/10"
+            pointsLabel.text = "Points: \(points)"
+        } else  if (indexPath.row != correctCell) {
+            round += 1
+            count = 11
+            roundLabel.text = "\(round)/10"
+        }
+    }
+    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "myCell", for: indexPath) as! CollectionViewCellController
-        
+        cell.myCellImage.image = UIImage(named: "glauncher.jpg")
         return cell
     }
 

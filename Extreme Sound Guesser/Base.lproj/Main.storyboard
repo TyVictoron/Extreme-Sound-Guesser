@@ -117,7 +117,7 @@
                                             <constraint firstAttribute="bottom" secondItem="TaX-TQ-iR4" secondAttribute="bottom" id="xIa-eS-h0M"/>
                                         </constraints>
                                         <connections>
-                                            <segue destination="ZGe-gO-AaC" kind="show" id="66L-0h-wX6"/>
+                                            <outlet property="myCellImage" destination="TaX-TQ-iR4" id="eZg-ib-z7m"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
