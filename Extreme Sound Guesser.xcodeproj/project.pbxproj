@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1074E8B11DFEFAD5005552E9 /* grenadeLauncher.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1074E8B01DFEFAD5005552E9 /* grenadeLauncher.mp3 */; };
-		1074E8B61DFF09A7005552E9 /* Machineun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1074E8B21DFF09A6005552E9 /* Machineun.jpg */; };
-		1074E8B71DFF09A7005552E9 /* carbime.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1074E8B31DFF09A6005552E9 /* carbime.jpg */; };
-		1074E8B81DFF09A7005552E9 /* sniperifle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1074E8B41DFF09A6005552E9 /* sniperifle.png */; };
-		1074E8B91DFF09A7005552E9 /* glauncher.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1074E8B51DFF09A6005552E9 /* glauncher.jpg */; };
+		103939E81E0839C00089F9E4 /* Wake Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 103939E71E0839C00089F9E4 /* Wake Me.mp3 */; };
+		103939EA1E083A650089F9E4 /* mcHelmet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 103939E91E083A650089F9E4 /* mcHelmet.jpg */; };
 		1074E8BB1DFFB23B005552E9 /* dogBark.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1074E8BA1DFFB23B005552E9 /* dogBark.wav */; };
 		1074E8BD1DFFBBC9005552E9 /* VolatileReaction.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1074E8BC1DFFBBC9005552E9 /* VolatileReaction.mp3 */; };
 		1074E8BF1DFFBBD8005552E9 /* manSpeaks.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1074E8BE1DFFBBD8005552E9 /* manSpeaks.wav */; };
@@ -50,11 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1074E8B01DFEFAD5005552E9 /* grenadeLauncher.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = grenadeLauncher.mp3; sourceTree = "<group>"; };
-		1074E8B21DFF09A6005552E9 /* Machineun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Machineun.jpg; sourceTree = "<group>"; };
-		1074E8B31DFF09A6005552E9 /* carbime.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carbime.jpg; sourceTree = "<group>"; };
-		1074E8B41DFF09A6005552E9 /* sniperifle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sniperifle.png; sourceTree = "<group>"; };
-		1074E8B51DFF09A6005552E9 /* glauncher.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = glauncher.jpg; sourceTree = "<group>"; };
+		103939E71E0839C00089F9E4 /* Wake Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wake Me.mp3"; sourceTree = "<group>"; };
+		103939E91E083A650089F9E4 /* mcHelmet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mcHelmet.jpg; sourceTree = "<group>"; };
 		1074E8BA1DFFB23B005552E9 /* dogBark.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dogBark.wav; sourceTree = "<group>"; };
 		1074E8BC1DFFBBC9005552E9 /* VolatileReaction.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VolatileReaction.mp3; sourceTree = "<group>"; };
 		1074E8BE1DFFBBD8005552E9 /* manSpeaks.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = manSpeaks.wav; sourceTree = "<group>"; };
@@ -118,10 +112,7 @@
 		1074E8C01E004AEB005552E9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				1074E8B21DFF09A6005552E9 /* Machineun.jpg */,
-				1074E8B31DFF09A6005552E9 /* carbime.jpg */,
-				1074E8B41DFF09A6005552E9 /* sniperifle.png */,
-				1074E8B51DFF09A6005552E9 /* glauncher.jpg */,
+				103939E91E083A650089F9E4 /* mcHelmet.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -129,7 +120,7 @@
 		1074E8C11E004AFE005552E9 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				1074E8B01DFEFAD5005552E9 /* grenadeLauncher.mp3 */,
+				103939E71E0839C00089F9E4 /* Wake Me.mp3 */,
 				1074E8BA1DFFB23B005552E9 /* dogBark.wav */,
 				1074E8BE1DFFBBD8005552E9 /* manSpeaks.wav */,
 				1074E8BC1DFFBBC9005552E9 /* VolatileReaction.mp3 */,
@@ -339,15 +330,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				109547901DF85E51004EF0F3 /* LaunchScreen.storyboard in Resources */,
-				1074E8B71DFF09A7005552E9 /* carbime.jpg in Resources */,
-				1074E8B11DFEFAD5005552E9 /* grenadeLauncher.mp3 in Resources */,
-				1074E8B81DFF09A7005552E9 /* sniperifle.png in Resources */,
+				103939E81E0839C00089F9E4 /* Wake Me.mp3 in Resources */,
 				1074E8BB1DFFB23B005552E9 /* dogBark.wav in Resources */,
 				1095478D1DF85E51004EF0F3 /* Assets.xcassets in Resources */,
-				1074E8B91DFF09A7005552E9 /* glauncher.jpg in Resources */,
-				1074E8B61DFF09A7005552E9 /* Machineun.jpg in Resources */,
 				1074E8BF1DFFBBD8005552E9 /* manSpeaks.wav in Resources */,
 				1074E8BD1DFFBBC9005552E9 /* VolatileReaction.mp3 in Resources */,
+				103939EA1E083A650089F9E4 /* mcHelmet.jpg in Resources */,
 				109547881DF85E51004EF0F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

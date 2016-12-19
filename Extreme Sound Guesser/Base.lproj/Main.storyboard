@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -207,9 +207,15 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Points: 666" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uda-Rd-MSC">
-                                <rect key="frame" x="16" y="269" width="343" height="128"/>
+                                <rect key="frame" x="16" y="311" width="343" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" red="0.8969077467918396" green="0.79621732234954834" blue="0.24116432666778564" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="High Score: 666" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1Y-d9-gor">
+                                <rect key="frame" x="16" y="363" width="343" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.89690774679999996" green="0.79621732229999997" blue="0.24116432669999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -223,10 +229,16 @@
                             <constraint firstItem="RcU-lC-bpC" firstAttribute="centerX" secondItem="zTN-UC-SWu" secondAttribute="centerX" id="SkN-35-Fj6"/>
                             <constraint firstItem="TD0-nf-PMC" firstAttribute="leading" secondItem="zTN-UC-SWu" secondAttribute="leadingMargin" constant="46" id="YBo-oQ-Zpk"/>
                             <constraint firstItem="uda-Rd-MSC" firstAttribute="centerX" secondItem="zTN-UC-SWu" secondAttribute="centerX" id="bfF-b3-0aF"/>
+                            <constraint firstItem="m1Y-d9-gor" firstAttribute="top" secondItem="uda-Rd-MSC" secondAttribute="bottom" constant="8" id="bsQ-bq-diI"/>
                             <constraint firstItem="RcU-lC-bpC" firstAttribute="top" secondItem="3ub-x3-4aQ" secondAttribute="bottom" id="g9x-ee-nDm"/>
                             <constraint firstItem="rRq-Gs-4mx" firstAttribute="top" secondItem="TD0-nf-PMC" secondAttribute="bottom" constant="8" id="rsK-Tl-4Xo"/>
+                            <constraint firstItem="m1Y-d9-gor" firstAttribute="centerX" secondItem="zTN-UC-SWu" secondAttribute="centerX" id="svh-hx-opE"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="highscoreLabel" destination="m1Y-d9-gor" id="XQH-K9-dzm"/>
+                        <outlet property="pointsLabel" destination="uda-Rd-MSC" id="yhm-ZM-pYY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mcW-w9-vsV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -234,6 +246,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="VZQ-TG-ohU"/>
+        <segue reference="2Zp-LD-0ZE"/>
     </inferredMetricsTieBreakers>
 </document>

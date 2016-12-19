@@ -21,17 +21,22 @@ class GameViewController: UIViewController, UICollectionViewDataSource, UICollec
     var round = 1
     var timer = Timer()
     var correctCell = 0
+    var highScore = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        sound = self.setupAudioPlayerWithFile("grenadeLauncher", type:"mp3")
+        // sets first sound and plays it
+        sound = self.setupAudioPlayerWithFile("Wake Me", type:"mp3")
         sound.play()
         
-         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.update), userInfo: nil, repeats: true)
+        // sets up and starts timer using the update method
+         timer = Timer.scheduledTimer(timeInterval: 1.5, target: self, selector: #selector(self.update), userInfo: nil, repeats: true)
         
+        // sets up label
         pointsLabel.text = "Points: \(points)"
     }
     
+    //update method called by the timer, changes rounds and ends game once round 11 is reached
     func update() {
         count -= 1
         counterLabel.text = "\(count)"
@@ -42,6 +47,7 @@ class GameViewController: UIViewController, UICollectionViewDataSource, UICollec
             roundLabel.text = "\(round)/10"
         }
         
+        // changes sounds based on which round is called
         if round == 2 && count == 10 {
             changeSound(name: "dogBark", type: "wav")
         }
@@ -51,42 +57,52 @@ class GameViewController: UIViewController, UICollectionViewDataSource, UICollec
         }
         if round == 4 && count == 10 {
             // nextsound
+            changeSound(name: "Wake Me", type: "mp3")
         }
         if round == 5 && count == 10 {
             // nextsound
+            changeSound(name: "dogBark", type: "wav")
         }
         if round == 6 && count == 10 {
             // nextsound
+            changeSound(name: "Wake Me", type: "mp3")
         }
         if round == 7 && count == 10 {
             // nextsound
+            changeSound(name: "dogBark", type: "wav")
         }
         if round == 8 && count == 10 {
             // nextsound
+            changeSound(name: "Wake Me", type: "mp3")
         }
         if round == 9 && count == 10 {
             // nextsound
+            changeSound(name: "dogBark", type: "wav")
         }
         if round == 10 && count == 10 {
             // nextsound
+            changeSound(name: "Wake Me", type: "mp3")
         }
         
         if round >= 11 {
             timer.invalidate()
             //segue to next view
             if let resultController = self.storyboard?.instantiateViewController(withIdentifier: "EndVC") as? EndGameViewController {
+                resultController.score = points
+                resultController.highscore = highScore
                 self.present(resultController, animated: true, completion: nil)
-                //self.performSegueWithIdentifier("StartVC", sender: nil)
             }
         }
     }
     
+    // changes the sound taking 2 stings as paramiters
     func changeSound(name: String, type: String) {
         sound = AVAudioPlayer()
         sound = self.setupAudioPlayerWithFile(name as NSString, type: type as NSString)
         sound.play()
     }
     
+    // sets up the collection view
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 4
     }
@@ -105,12 +121,14 @@ class GameViewController: UIViewController, UICollectionViewDataSource, UICollec
         }
     }
     
+    // sets up the cells
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "myCell", for: indexPath) as! CollectionViewCellController
-        cell.myCellImage.image = UIImage(named: "glauncher.jpg")
+        cell.myCellImage.image = UIImage(named: "mcHelmet.jpg")
         return cell
     }
 
+    // allows the user to listen to the sound again
     @IBAction func playAgainButton(_ sender: Any) {
         sound.play()
     }

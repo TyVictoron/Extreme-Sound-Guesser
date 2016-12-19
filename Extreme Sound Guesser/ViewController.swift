@@ -14,14 +14,19 @@
 import UIKit
 import Darwin
 import AVFoundation
+import CoreData
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
 
     var music = AVAudioPlayer()
+    var highScore = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        // saves score
+        let defaults: UserDefaults = UserDefaults.standard
+        let savedScore = defaults.integer(forKey: "highScore")
+        highScore = savedScore
         
         music = self.setupAudioPlayerWithFile("VolatileReaction", type: "mp3")
         music.play()
@@ -51,6 +56,11 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         
         //4
         return audioPlayer!
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! GameViewController
+        vc.highScore = highScore
     }
     
 }
