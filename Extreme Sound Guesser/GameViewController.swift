@@ -49,7 +49,7 @@ class GameViewController: UIViewController, UICollectionViewDataSource, UICollec
         
         // changes sounds based on which round is called
         if round == 2 && count == 10 {
-            changeSound(name: "dogBark", type: "wav")
+            changeSound(name: "Do it", type: "mp3")
         }
         if round == 3 && count == 10 {
             // nextsound
@@ -61,7 +61,7 @@ class GameViewController: UIViewController, UICollectionViewDataSource, UICollec
         }
         if round == 5 && count == 10 {
             // nextsound
-            changeSound(name: "dogBark", type: "wav")
+            changeSound(name: "Do it", type: "mp3")
         }
         if round == 6 && count == 10 {
             // nextsound
@@ -69,7 +69,7 @@ class GameViewController: UIViewController, UICollectionViewDataSource, UICollec
         }
         if round == 7 && count == 10 {
             // nextsound
-            changeSound(name: "dogBark", type: "wav")
+            changeSound(name: "Do it", type: "mp3")
         }
         if round == 8 && count == 10 {
             // nextsound
@@ -77,7 +77,7 @@ class GameViewController: UIViewController, UICollectionViewDataSource, UICollec
         }
         if round == 9 && count == 10 {
             // nextsound
-            changeSound(name: "dogBark", type: "wav")
+            changeSound(name: "Do it", type: "mp3")
         }
         if round == 10 && count == 10 {
             // nextsound
@@ -114,10 +114,43 @@ class GameViewController: UIViewController, UICollectionViewDataSource, UICollec
             count = 11
             roundLabel.text = "\(round)/10"
             pointsLabel.text = "Points: \(points)"
+            //collectionView(collectionView, cellForItemAt: indexPath)
         } else  if (indexPath.row != correctCell) {
             round += 1
             count = 11
             roundLabel.text = "\(round)/10"
+            checkCells(indexPath: indexPath)
+        }
+    }
+    
+    func checkCells(indexPath: IndexPath) {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "myCell", for: indexPath) as! CollectionViewCellController
+        if round == 2 {
+            cell.myCellImage.image = UIImage(named: "Emperor_RotJ.png")
+        }
+        if round == 3 {
+            cell.myCellImage.image = UIImage(named: "Emperor_RotJ.png")
+        }
+        if round == 4 {
+            cell.myCellImage.image = UIImage(named: "Emperor_RotJ.png")
+        }
+        if round == 5 {
+            cell.myCellImage.image = UIImage(named: "Emperor_RotJ.png")
+        }
+        if round == 6 {
+            cell.myCellImage.image = UIImage(named: "Emperor_RotJ.png")
+        }
+        if round == 7 {
+            cell.myCellImage.image = UIImage(named: "Emperor_RotJ.png")
+        }
+        if round == 8 {
+            cell.myCellImage.image = UIImage(named: "Emperor_RotJ.png")
+        }
+        if round == 9 {
+            cell.myCellImage.image = UIImage(named: "Emperor_RotJ.png")
+        }
+        if round == 10 {
+            cell.myCellImage.image = UIImage(named: "Emperor_RotJ.png")
         }
     }
     
@@ -125,6 +158,7 @@ class GameViewController: UIViewController, UICollectionViewDataSource, UICollec
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "myCell", for: indexPath) as! CollectionViewCellController
         cell.myCellImage.image = UIImage(named: "mcHelmet.jpg")
+        checkCells(indexPath: indexPath)
         return cell
     }
 

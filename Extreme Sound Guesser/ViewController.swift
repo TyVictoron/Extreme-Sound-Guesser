@@ -29,7 +29,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         highScore = savedScore
         
         music = self.setupAudioPlayerWithFile("VolatileReaction", type: "mp3")
-        music.play()
+        //music.play()
         music.numberOfLoops = -1
         // Do any additional setup after loading the view, typically from a nib.
     }

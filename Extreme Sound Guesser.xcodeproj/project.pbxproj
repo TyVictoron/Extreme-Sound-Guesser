@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		103939E81E0839C00089F9E4 /* Wake Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 103939E71E0839C00089F9E4 /* Wake Me.mp3 */; };
 		103939EA1E083A650089F9E4 /* mcHelmet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 103939E91E083A650089F9E4 /* mcHelmet.jpg */; };
+		103939EC1E087FE30089F9E4 /* Do it.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 103939EB1E087FE30089F9E4 /* Do it.mp3 */; };
+		103939EE1E0880910089F9E4 /* Emperor_RotJ.png in Resources */ = {isa = PBXBuildFile; fileRef = 103939ED1E0880910089F9E4 /* Emperor_RotJ.png */; };
 		1074E8BB1DFFB23B005552E9 /* dogBark.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1074E8BA1DFFB23B005552E9 /* dogBark.wav */; };
 		1074E8BD1DFFBBC9005552E9 /* VolatileReaction.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1074E8BC1DFFBBC9005552E9 /* VolatileReaction.mp3 */; };
 		1074E8BF1DFFBBD8005552E9 /* manSpeaks.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1074E8BE1DFFBBD8005552E9 /* manSpeaks.wav */; };
@@ -49,6 +51,8 @@
 /* Begin PBXFileReference section */
 		103939E71E0839C00089F9E4 /* Wake Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wake Me.mp3"; sourceTree = "<group>"; };
 		103939E91E083A650089F9E4 /* mcHelmet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mcHelmet.jpg; sourceTree = "<group>"; };
+		103939EB1E087FE30089F9E4 /* Do it.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Do it.mp3"; sourceTree = "<group>"; };
+		103939ED1E0880910089F9E4 /* Emperor_RotJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emperor_RotJ.png; sourceTree = "<group>"; };
 		1074E8BA1DFFB23B005552E9 /* dogBark.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dogBark.wav; sourceTree = "<group>"; };
 		1074E8BC1DFFBBC9005552E9 /* VolatileReaction.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VolatileReaction.mp3; sourceTree = "<group>"; };
 		1074E8BE1DFFBBD8005552E9 /* manSpeaks.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = manSpeaks.wav; sourceTree = "<group>"; };
@@ -112,6 +116,7 @@
 		1074E8C01E004AEB005552E9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				103939ED1E0880910089F9E4 /* Emperor_RotJ.png */,
 				103939E91E083A650089F9E4 /* mcHelmet.jpg */,
 			);
 			name = Images;
@@ -120,6 +125,7 @@
 		1074E8C11E004AFE005552E9 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				103939EB1E087FE30089F9E4 /* Do it.mp3 */,
 				103939E71E0839C00089F9E4 /* Wake Me.mp3 */,
 				1074E8BA1DFFB23B005552E9 /* dogBark.wav */,
 				1074E8BE1DFFBBD8005552E9 /* manSpeaks.wav */,
@@ -332,7 +338,9 @@
 				109547901DF85E51004EF0F3 /* LaunchScreen.storyboard in Resources */,
 				103939E81E0839C00089F9E4 /* Wake Me.mp3 in Resources */,
 				1074E8BB1DFFB23B005552E9 /* dogBark.wav in Resources */,
+				103939EC1E087FE30089F9E4 /* Do it.mp3 in Resources */,
 				1095478D1DF85E51004EF0F3 /* Assets.xcassets in Resources */,
+				103939EE1E0880910089F9E4 /* Emperor_RotJ.png in Resources */,
 				1074E8BF1DFFBBD8005552E9 /* manSpeaks.wav in Resources */,
 				1074E8BD1DFFBBC9005552E9 /* VolatileReaction.mp3 in Resources */,
 				103939EA1E083A650089F9E4 /* mcHelmet.jpg in Resources */,
